@@ -1,0 +1,50 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Document
+  body
+    header
+      div.header-wrapper
+        a.logo(href="#")
+          img(src="images/logo.png", alt="Logo")
+        nav
+          ul.menu
+            li
+              a.menu-item(href="#") ВРАЧАМ И КЛИНИКАМ
+            li#submenu-open
+              a.menu-item(href="#") О МЕДДИА
+                img.vector(src="images/Vector.svg", alt="Vector")
+              ul.submenu(href="#")
+                li
+                  a.submenu-item(href="#") About us
+                li
+                  a.submenu-item(href="#") Terms
+                li
+                  a.submenu-item(href="#") Contact Us
+                li
+                  a.submenu-item(href="#") Help      
+            li
+              a.menu-item(href="#") РУБ | РУС
+                img.vector(src="images/Vector.svg", alt="Vector")
+            li
+              a.menu-item(href="#") ВОЙТИ
+            li
+              a.menu-item.menu-item_last(href="#") 5
+                img.like(src="images/Like.svg", alt="")
+          div.wrapper-menu
+            input(type="checkbox" id="check-menu")
+            label(for="check-menu")
+            div.burger-line.first
+            div.burger-line.second
+            div.burger-line.third
+            div.burger-line.fourth
+            nav.main-menu
+              a.main-menu-item(href="#") About us
+              a.main-menu-item(href="#") Terms
+              a.main-menu-item(href="#") Contact Us
+              a.main-menu-item(href="#") Help
+              a.main-menu-item(href="#") РУБ | РУС
+              a.main-menu-item(href="#") ВОЙТИ 

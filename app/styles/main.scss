@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700&subset=cyrillic');
+@import 'normalize';
+@import 'reset';
+@import 'variables';
+
+body {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+a {
+    text-decoration: none;
+  }
+  
+img {
+    max-width: 100%;
+  }
+
+header {
+    width: 100%;
+    background: $green;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.header-wrapper {
+    max-width: 1280px;
+    height: 64px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ .logo img {
+     height: 42px;
+     &:hover {
+         opacity: .5;
+         transition: .6s;
+     }
+ }
+
+ .menu {
+     display: flex;
+ }
+
+ .menu-item {
+     display: flex;
+     color: #fff;
+     font-size: 12px;
+     font-weight: bold;
+     line-height: 14px;
+     text-transform: uppercase;
+     padding: 17px 16px 16px 23px;
+     &:hover {
+         background: rgba(0, 0, 0, 0.1);
+         transition: .6s;
+     }
+ }
+
+.menu-item_last {
+    position: relative;
+    padding: 17px 0 0 54px;
+    &:hover {
+        background: inherit;
+    }
+}
+
+ .like {
+     position: absolute;
+     left: 25px;
+     top: 15px;
+ }
+
+ .vector {
+     margin-left: 12px;
+ }
+
+ .submenu {
+     display: none;
+     position: absolute;
+     left: 0;
+     top: 64px;
+     width: 100%;
+     background: #fff;
+     height: 96px;
+ }
+ 
+ #submenu-open:hover .submenu {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .submenu-item {
+     display: flex;
+     width: 115px;
+     padding: 11px 0 12px 0;
+     justify-content: center;
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 16px;
+     color: #4f4f4f;
+     &:hover {
+         background: #ececec;
+         transition: .6s;
+     }
+ }
+
+ .wrapper-menu {
+     display: none;
+ }
+
+ @media (max-width: 768px) {
+     .menu {
+         display: none;
+     }
+
+     .wrapper-menu {
+        display: flex;
+        width: 40px;
+        text-align: center;
+        height: 40px;
+      }
+    
+      #check-menu{
+        display: none;
+      }
+    
+      label{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        z-index: 2;
+        line-height: 40px;
+      }
+    
+      .burger-line{
+        position: absolute;
+        top: 22px;
+        right: 22px;
+        width: 35px;
+        height: 2px;
+        background-color: #fff;
+        transition: .5s all;
+      }
+    
+      .second, .third{
+        top: 32px;
+      }
+    
+      .fourth{
+        top: 42px;
+      }
+    
+      .main-menu{
+        display: block;
+        position: absolute;
+        width: 100vw;
+        left: 0;
+        top: -176px;
+        transform: translateY(100%);
+        max-height: 0;
+        font-size: 0;
+        overflow: hidden;
+        transition: .5s all;
+        background: #fff;
+      }
+    
+      .main-menu-item{
+        display: block;
+        width: 100%;
+        padding: 12px;
+        color: #4f4f4f;
+        text-decoration: none;
+        &:hover {
+          background: #ececec;
+          transition: .6s;
+        }
+        &:last-child {
+            color: #fff;
+            background: $green;
+            font-weight: bold;
+        }
+        &:nth-child(5) {
+            color: #fff;
+            background: $red;
+            font-weight: bold;
+        }
+      }
+    
+      #check-menu:checked ~ .main-menu{
+        max-height: 100vh;
+        font-size: 14px;
+        line-height: 16px;
+      }
+    
+      #check-menu:checked ~ .first{
+        display: none;
+      }
+    
+      #check-menu:checked ~ .second{
+        transform: rotate(45deg);
+      }
+    
+      #check-menu:checked ~ .third{
+        transform: rotate(-45deg);
+      }
+    
+      #check-menu:checked ~ .fourth{
+        display: none;
+      }
+    }
+/*
+.main li ul {
+    display: none;
+}
+.main li:hover ul {
+    display: block;
+}
+.main li ul li {
+    display: inline; 
+    margin: 0 10px;
+}
+*/

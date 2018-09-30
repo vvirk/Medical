@@ -1,0 +1,1230 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.8.3",
+  "hash": "9357cf555dd0966491ff",
+  "publicPath": "/",
+  "outputPath": "/home/virk/Desktop/Medical/build",
+  "assetsByChunkName": {
+    "runtime": "scripts/runtime.21804de8.js",
+    "main": [
+      "styles/1.bb2436c2.css",
+      "scripts/main.b2d643bf.js"
+    ]
+  },
+  "assets": [
+    {
+      "name": "scripts/runtime.21804de8.js",
+      "size": 1065,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "runtime"
+      ]
+    },
+    {
+      "name": "styles/1.bb2436c2.css",
+      "size": 4024,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "main"
+      ]
+    },
+    {
+      "name": "scripts/main.b2d643bf.js",
+      "size": 148,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "main"
+      ]
+    },
+    {
+      "name": "index.html",
+      "size": 7709,
+      "chunks": [],
+      "chunkNames": []
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [
+        "scripts/runtime.21804de8.js",
+        "styles/1.bb2436c2.css",
+        "scripts/main.b2d643bf.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        0,
+        1
+      ],
+      "assets": [
+        "scripts/runtime.21804de8.js",
+        "styles/1.bb2436c2.css",
+        "scripts/main.b2d643bf.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": 0,
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 0,
+      "names": [
+        "runtime"
+      ],
+      "files": [
+        "scripts/runtime.21804de8.js"
+      ],
+      "hash": "21804de843a3aab74ef9",
+      "siblings": [
+        1
+      ],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "/home/virk/Desktop/Medical/app/scripts",
+          "reasons": []
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "rendered": true,
+      "initial": true,
+      "entry": false,
+      "size": 12047,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "styles/1.bb2436c2.css",
+        "scripts/main.b2d643bf.js"
+      ],
+      "hash": "b2d643bf1b2c4ac6b47b",
+      "siblings": [
+        0
+      ],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": 0,
+          "identifier": "css /home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss 1",
+          "name": "css ../node_modules/css-loader??ref--8-1!../node_modules/postcss-loader/lib??ref--8-2!../node_modules/fast-sass-loader/lib!./styles/main.scss (1)",
+          "index": 3,
+          "index2": 1,
+          "size": 11815,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "/home/virk/Desktop/Medical/node_modules/mini-css-extract-plugin/dist/loader.js!/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+          "issuerId": "WMMs",
+          "issuerName": "./styles/main.scss",
+          "issuerPath": [
+            {
+              "id": "IhKj",
+              "identifier": "/home/virk/Desktop/Medical/node_modules/babel-loader/lib/index.js??ref--7!/home/virk/Desktop/Medical/node_modules/eslint-loader/index.js??ref--5!/home/virk/Desktop/Medical/app/scripts/index.js",
+              "name": "./scripts/index.js"
+            },
+            {
+              "id": "WMMs",
+              "identifier": "/home/virk/Desktop/Medical/node_modules/mini-css-extract-plugin/dist/loader.js!/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+              "name": "./styles/main.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "WMMs",
+              "moduleIdentifier": "/home/virk/Desktop/Medical/node_modules/mini-css-extract-plugin/dist/loader.js!/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+              "module": "./styles/main.scss",
+              "moduleName": "./styles/main.scss"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "id": 1,
+          "identifier": "css /home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss 0",
+          "name": "css ../node_modules/css-loader??ref--8-1!../node_modules/postcss-loader/lib??ref--8-2!../node_modules/fast-sass-loader/lib!./styles/main.scss",
+          "index": 2,
+          "index2": 0,
+          "size": 89,
+          "built": false,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "/home/virk/Desktop/Medical/node_modules/mini-css-extract-plugin/dist/loader.js!/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+          "issuerId": "WMMs",
+          "issuerName": "./styles/main.scss",
+          "issuerPath": [
+            {
+              "id": "IhKj",
+              "identifier": "/home/virk/Desktop/Medical/node_modules/babel-loader/lib/index.js??ref--7!/home/virk/Desktop/Medical/node_modules/eslint-loader/index.js??ref--5!/home/virk/Desktop/Medical/app/scripts/index.js",
+              "name": "./scripts/index.js"
+            },
+            {
+              "id": "WMMs",
+              "identifier": "/home/virk/Desktop/Medical/node_modules/mini-css-extract-plugin/dist/loader.js!/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+              "name": "./styles/main.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "WMMs",
+              "moduleIdentifier": "/home/virk/Desktop/Medical/node_modules/mini-css-extract-plugin/dist/loader.js!/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+              "module": "./styles/main.scss",
+              "moduleName": "./styles/main.scss"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 2
+        },
+        {
+          "id": "IhKj",
+          "identifier": "/home/virk/Desktop/Medical/node_modules/babel-loader/lib/index.js??ref--7!/home/virk/Desktop/Medical/node_modules/eslint-loader/index.js??ref--5!/home/virk/Desktop/Medical/app/scripts/index.js",
+          "name": "./scripts/index.js",
+          "index": 0,
+          "index2": 3,
+          "size": 104,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "/home/virk/Desktop/Medical/app/scripts",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": [],
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is an entry point"
+          ],
+          "depth": 0,
+          "source": "import '../styles/main.scss';\n\nif (process.env.NODE_ENV !== 'production') {\n  require('../index.pug');\n}"
+        },
+        {
+          "id": "WMMs",
+          "identifier": "/home/virk/Desktop/Medical/node_modules/mini-css-extract-plugin/dist/loader.js!/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+          "name": "./styles/main.scss",
+          "index": 1,
+          "index2": 2,
+          "size": 39,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            1
+          ],
+          "issuer": "/home/virk/Desktop/Medical/node_modules/babel-loader/lib/index.js??ref--7!/home/virk/Desktop/Medical/node_modules/eslint-loader/index.js??ref--5!/home/virk/Desktop/Medical/app/scripts/index.js",
+          "issuerId": "IhKj",
+          "issuerName": "./scripts/index.js",
+          "issuerPath": [
+            {
+              "id": "IhKj",
+              "identifier": "/home/virk/Desktop/Medical/node_modules/babel-loader/lib/index.js??ref--7!/home/virk/Desktop/Medical/node_modules/eslint-loader/index.js??ref--5!/home/virk/Desktop/Medical/app/scripts/index.js",
+              "name": "./scripts/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "IhKj",
+              "moduleIdentifier": "/home/virk/Desktop/Medical/node_modules/babel-loader/lib/index.js??ref--7!/home/virk/Desktop/Medical/node_modules/eslint-loader/index.js??ref--5!/home/virk/Desktop/Medical/app/scripts/index.js",
+              "module": "./scripts/index.js",
+              "moduleName": "./scripts/index.js",
+              "type": "harmony side effect evaluation",
+              "userRequest": "../styles/main.scss",
+              "loc": "1:0-29"
+            }
+          ],
+          "usedExports": false,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "// extracted by mini-css-extract-plugin"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "/home/virk/Desktop/Medical/app/scripts",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "css /home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss 1",
+      "name": "css ../node_modules/css-loader??ref--8-1!../node_modules/postcss-loader/lib??ref--8-2!../node_modules/fast-sass-loader/lib!./styles/main.scss (1)",
+      "index": 3,
+      "index2": 1,
+      "size": 11815,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "/home/virk/Desktop/Medical/node_modules/mini-css-extract-plugin/dist/loader.js!/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+      "issuerId": "WMMs",
+      "issuerName": "./styles/main.scss",
+      "issuerPath": [
+        {
+          "id": "IhKj",
+          "identifier": "/home/virk/Desktop/Medical/node_modules/babel-loader/lib/index.js??ref--7!/home/virk/Desktop/Medical/node_modules/eslint-loader/index.js??ref--5!/home/virk/Desktop/Medical/app/scripts/index.js",
+          "name": "./scripts/index.js"
+        },
+        {
+          "id": "WMMs",
+          "identifier": "/home/virk/Desktop/Medical/node_modules/mini-css-extract-plugin/dist/loader.js!/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+          "name": "./styles/main.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "WMMs",
+          "moduleIdentifier": "/home/virk/Desktop/Medical/node_modules/mini-css-extract-plugin/dist/loader.js!/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+          "module": "./styles/main.scss",
+          "moduleName": "./styles/main.scss"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "id": 1,
+      "identifier": "css /home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss 0",
+      "name": "css ../node_modules/css-loader??ref--8-1!../node_modules/postcss-loader/lib??ref--8-2!../node_modules/fast-sass-loader/lib!./styles/main.scss",
+      "index": 2,
+      "index2": 0,
+      "size": 89,
+      "built": false,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "/home/virk/Desktop/Medical/node_modules/mini-css-extract-plugin/dist/loader.js!/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+      "issuerId": "WMMs",
+      "issuerName": "./styles/main.scss",
+      "issuerPath": [
+        {
+          "id": "IhKj",
+          "identifier": "/home/virk/Desktop/Medical/node_modules/babel-loader/lib/index.js??ref--7!/home/virk/Desktop/Medical/node_modules/eslint-loader/index.js??ref--5!/home/virk/Desktop/Medical/app/scripts/index.js",
+          "name": "./scripts/index.js"
+        },
+        {
+          "id": "WMMs",
+          "identifier": "/home/virk/Desktop/Medical/node_modules/mini-css-extract-plugin/dist/loader.js!/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+          "name": "./styles/main.scss"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "WMMs",
+          "moduleIdentifier": "/home/virk/Desktop/Medical/node_modules/mini-css-extract-plugin/dist/loader.js!/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+          "module": "./styles/main.scss",
+          "moduleName": "./styles/main.scss"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 2
+    },
+    {
+      "id": "IhKj",
+      "identifier": "/home/virk/Desktop/Medical/node_modules/babel-loader/lib/index.js??ref--7!/home/virk/Desktop/Medical/node_modules/eslint-loader/index.js??ref--5!/home/virk/Desktop/Medical/app/scripts/index.js",
+      "name": "./scripts/index.js",
+      "index": 0,
+      "index2": 3,
+      "size": 104,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "/home/virk/Desktop/Medical/app/scripts",
+          "loc": "main"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": [],
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is an entry point"
+      ],
+      "depth": 0,
+      "source": "import '../styles/main.scss';\n\nif (process.env.NODE_ENV !== 'production') {\n  require('../index.pug');\n}"
+    },
+    {
+      "id": "WMMs",
+      "identifier": "/home/virk/Desktop/Medical/node_modules/mini-css-extract-plugin/dist/loader.js!/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+      "name": "./styles/main.scss",
+      "index": 1,
+      "index2": 2,
+      "size": 39,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        1
+      ],
+      "issuer": "/home/virk/Desktop/Medical/node_modules/babel-loader/lib/index.js??ref--7!/home/virk/Desktop/Medical/node_modules/eslint-loader/index.js??ref--5!/home/virk/Desktop/Medical/app/scripts/index.js",
+      "issuerId": "IhKj",
+      "issuerName": "./scripts/index.js",
+      "issuerPath": [
+        {
+          "id": "IhKj",
+          "identifier": "/home/virk/Desktop/Medical/node_modules/babel-loader/lib/index.js??ref--7!/home/virk/Desktop/Medical/node_modules/eslint-loader/index.js??ref--5!/home/virk/Desktop/Medical/app/scripts/index.js",
+          "name": "./scripts/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": "IhKj",
+          "moduleIdentifier": "/home/virk/Desktop/Medical/node_modules/babel-loader/lib/index.js??ref--7!/home/virk/Desktop/Medical/node_modules/eslint-loader/index.js??ref--5!/home/virk/Desktop/Medical/app/scripts/index.js",
+          "module": "./scripts/index.js",
+          "moduleName": "./scripts/index.js",
+          "type": "harmony side effect evaluation",
+          "userRequest": "../styles/main.scss",
+          "loc": "1:0-29"
+        }
+      ],
+      "usedExports": false,
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 1,
+      "source": "// extracted by mini-css-extract-plugin"
+    }
+  ],
+  "filteredModules": 0,
+  "children": [
+    {
+      "errors": [],
+      "warnings": [
+        "./images/Like.svg\n(Emitted value instead of an instance of Error) DEPRECATED. Configure mozjpeg's progressive option in its own options. (mozjpeg.progressive)\nNonErrorEmittedError: (Emitted value instead of an instance of Error) DEPRECATED. Configure mozjpeg's progressive option in its own options. (mozjpeg.progressive)\n    at Object.emitWarning (/home/virk/Desktop/Medical/node_modules/webpack/lib/NormalModule.js:157:16)\n    at Object.module.exports (/home/virk/Desktop/Medical/node_modules/image-webpack-loader/index.js:48:10)\n @ ../node_modules/html-webpack-plugin/lib/loader.js!./index.pug 1:1176-1204",
+        "./images/Vector.svg\n(Emitted value instead of an instance of Error) DEPRECATED. Configure mozjpeg's progressive option in its own options. (mozjpeg.progressive)\nNonErrorEmittedError: (Emitted value instead of an instance of Error) DEPRECATED. Configure mozjpeg's progressive option in its own options. (mozjpeg.progressive)\n    at Object.emitWarning (/home/virk/Desktop/Medical/node_modules/webpack/lib/NormalModule.js:157:16)\n    at Object.module.exports (/home/virk/Desktop/Medical/node_modules/image-webpack-loader/index.js:48:10)\n @ ../node_modules/html-webpack-plugin/lib/loader.js!./index.pug 1:568-598 1:979-1009",
+        "./images/logo.png\n(Emitted value instead of an instance of Error) DEPRECATED. Configure mozjpeg's progressive option in its own options. (mozjpeg.progressive)\nNonErrorEmittedError: (Emitted value instead of an instance of Error) DEPRECATED. Configure mozjpeg's progressive option in its own options. (mozjpeg.progressive)\n    at Object.emitWarning (/home/virk/Desktop/Medical/node_modules/webpack/lib/NormalModule.js:157:16)\n    at Object.module.exports (/home/virk/Desktop/Medical/node_modules/image-webpack-loader/index.js:48:10)\n @ ../node_modules/html-webpack-plugin/lib/loader.js!./index.pug 1:330-358"
+      ],
+      "publicPath": "/",
+      "outputPath": "/home/virk/Desktop/Medical/build",
+      "assetsByChunkName": {},
+      "assets": [
+        {
+          "name": "index.html",
+          "size": 10589,
+          "chunks": [
+            0
+          ],
+          "chunkNames": []
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "index.html"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "undefined": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "index.html"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 7666,
+          "names": [],
+          "files": [
+            "index.html"
+          ],
+          "hash": "bab6ae170a3dd3530b32",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "Cc5c",
+              "identifier": "/home/virk/Desktop/Medical/node_modules/url-loader/dist/cjs.js??ref--9!/home/virk/Desktop/Medical/node_modules/image-webpack-loader/index.js??ref--10!/home/virk/Desktop/Medical/app/images/logo.png",
+              "name": "./images/logo.png",
+              "index": 1,
+              "index2": 0,
+              "size": 4985,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+              "issuerId": "hsVj",
+              "issuerName": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+              "issuerPath": [
+                {
+                  "id": "hsVj",
+                  "identifier": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+                  "name": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 1,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": "hsVj",
+                  "moduleIdentifier": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+                  "module": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+                  "moduleName": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+                  "type": "cjs require",
+                  "userRequest": "./images/logo.png",
+                  "loc": "1:330-358"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1,
+              "source": "module.exports = \"data:image/png;base64,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\""
+            },
+            {
+              "id": "K9Sm",
+              "identifier": "/home/virk/Desktop/Medical/node_modules/url-loader/dist/cjs.js??ref--9!/home/virk/Desktop/Medical/node_modules/image-webpack-loader/index.js??ref--10!/home/virk/Desktop/Medical/app/images/Vector.svg",
+              "name": "./images/Vector.svg",
+              "index": 2,
+              "index2": 1,
+              "size": 213,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+              "issuerId": "hsVj",
+              "issuerName": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+              "issuerPath": [
+                {
+                  "id": "hsVj",
+                  "identifier": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+                  "name": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 1,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": "hsVj",
+                  "moduleIdentifier": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+                  "module": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+                  "moduleName": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+                  "type": "cjs require",
+                  "userRequest": "./images/Vector.svg",
+                  "loc": "1:568-598"
+                },
+                {
+                  "moduleId": "hsVj",
+                  "moduleIdentifier": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+                  "module": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+                  "moduleName": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+                  "type": "cjs require",
+                  "userRequest": "./images/Vector.svg",
+                  "loc": "1:979-1009"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1,
+              "source": "module.exports = \"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOC45MzEuODgzbC00IDQtNC00IiBzdHJva2U9IiNmZmYiLz48L3N2Zz4=\""
+            },
+            {
+              "id": "hsVj",
+              "identifier": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+              "name": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+              "index": 0,
+              "index2": 3,
+              "size": 1871,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/app/index.pug"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0,
+              "source": "module.exports = \"<!DOCTYPE html><html lang=\\\"en\\\"><head><meta charset=\\\"UTF-8\\\"><meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\"><meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\"><title>Document</title></head><body><header><div class=\\\"header-wrapper\\\"><a class=\\\"logo\\\" href=\\\"#\\\"><img src=\\\"\" + require(\"./images/logo.png\") + \"\\\" alt=\\\"Logo\\\"></a><nav><ul class=\\\"menu\\\"><li><a class=\\\"menu-item\\\" href=\\\"#\\\">ВРАЧАМ И КЛИНИКАМ</a></li><li id=\\\"submenu-open\\\"><a class=\\\"menu-item\\\" href=\\\"#\\\">О МЕДДИА<img class=\\\"vector\\\" src=\\\"\" + require(\"./images/Vector.svg\") + \"\\\" alt=\\\"Vector\\\"></a><ul class=\\\"submenu\\\" href=\\\"#\\\"><li><a class=\\\"submenu-item\\\" href=\\\"#\\\">About us</a></li><li><a class=\\\"submenu-item\\\" href=\\\"#\\\">Terms</a></li><li><a class=\\\"submenu-item\\\" href=\\\"#\\\">Contact Us</a></li><li><a class=\\\"submenu-item\\\" href=\\\"#\\\">Help      </a></li></ul></li><li><a class=\\\"menu-item\\\" href=\\\"#\\\">РУБ | РУС<img class=\\\"vector\\\" src=\\\"\" + require(\"./images/Vector.svg\") + \"\\\" alt=\\\"Vector\\\"></a></li><li><a class=\\\"menu-item\\\" href=\\\"#\\\">ВОЙТИ</a></li><li><a class=\\\"menu-item menu-item_last\\\" href=\\\"#\\\">5<img class=\\\"like\\\" src=\\\"\" + require(\"./images/Like.svg\") + \"\\\" alt=\\\"\\\"></a></li></ul><div class=\\\"wrapper-menu\\\"><input type=\\\"checkbox\\\" id=\\\"check-menu\\\"><label for=\\\"check-menu\\\"></label><div class=\\\"burger-line first\\\"></div><div class=\\\"burger-line second\\\"></div><div class=\\\"burger-line third\\\"></div><div class=\\\"burger-line fourth\\\"></div><nav class=\\\"main-menu\\\"><a class=\\\"main-menu-item\\\" href=\\\"#\\\">About us</a><a class=\\\"main-menu-item\\\" href=\\\"#\\\">Terms</a><a class=\\\"main-menu-item\\\" href=\\\"#\\\">Contact Us</a><a class=\\\"main-menu-item\\\" href=\\\"#\\\">Help</a><a class=\\\"main-menu-item\\\" href=\\\"#\\\">РУБ | РУС</a><a class=\\\"main-menu-item\\\" href=\\\"#\\\">ВОЙТИ </a></nav></div></nav></div></header></body></html>\";"
+            },
+            {
+              "id": "sAkL",
+              "identifier": "/home/virk/Desktop/Medical/node_modules/url-loader/dist/cjs.js??ref--9!/home/virk/Desktop/Medical/node_modules/image-webpack-loader/index.js??ref--10!/home/virk/Desktop/Medical/app/images/Like.svg",
+              "name": "./images/Like.svg",
+              "index": 3,
+              "index2": 2,
+              "size": 597,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+              "issuerId": "hsVj",
+              "issuerName": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+              "issuerPath": [
+                {
+                  "id": "hsVj",
+                  "identifier": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+                  "name": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 1,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": "hsVj",
+                  "moduleIdentifier": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+                  "module": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+                  "moduleName": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+                  "type": "cjs require",
+                  "userRequest": "./images/Like.svg",
+                  "loc": "1:1176-1204"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1,
+              "source": "module.exports = \"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMTkiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE5LjI3MyAyLjA3OGE1LjQ5IDUuNDkgMCAwIDAtMy45MTQtMS42MmMtMS40OCAwLTIuODcuNTc3LTMuOTE4IDEuNjI1bC0uNTQ2LjU0Ny0uNTU2LS41NTZBNS41MTcgNS41MTcgMCAwIDAgNi40MTcuNDQ2YTUuNDk4IDUuNDk4IDAgMCAwLTMuOTEgMS42MkE1LjQ4MiA1LjQ4MiAwIDAgMCAuODg5IDUuOTgzYTUuNSA1LjUgMCAwIDAgMS42MjggMy45MTRsNy45NjMgNy45NjNhLjU3MS41NzEgMCAwIDAgLjgwNi4wMDRsNy45OC03Ljk1YTUuNTA0IDUuNTA0IDAgMCAwIDEuNjIzLTMuOTE4IDUuNDc4IDUuNDc4IDAgMCAwLTEuNjE1LTMuOTE4eiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==\""
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "",
+              "request": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/app/index.pug",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "Cc5c",
+          "identifier": "/home/virk/Desktop/Medical/node_modules/url-loader/dist/cjs.js??ref--9!/home/virk/Desktop/Medical/node_modules/image-webpack-loader/index.js??ref--10!/home/virk/Desktop/Medical/app/images/logo.png",
+          "name": "./images/logo.png",
+          "index": 1,
+          "index2": 0,
+          "size": 4985,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+          "issuerId": "hsVj",
+          "issuerName": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+          "issuerPath": [
+            {
+              "id": "hsVj",
+              "identifier": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+              "name": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 1,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "hsVj",
+              "moduleIdentifier": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+              "module": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+              "moduleName": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+              "type": "cjs require",
+              "userRequest": "./images/logo.png",
+              "loc": "1:330-358"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "module.exports = \"data:image/png;base64,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\""
+        },
+        {
+          "id": "K9Sm",
+          "identifier": "/home/virk/Desktop/Medical/node_modules/url-loader/dist/cjs.js??ref--9!/home/virk/Desktop/Medical/node_modules/image-webpack-loader/index.js??ref--10!/home/virk/Desktop/Medical/app/images/Vector.svg",
+          "name": "./images/Vector.svg",
+          "index": 2,
+          "index2": 1,
+          "size": 213,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+          "issuerId": "hsVj",
+          "issuerName": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+          "issuerPath": [
+            {
+              "id": "hsVj",
+              "identifier": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+              "name": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 1,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "hsVj",
+              "moduleIdentifier": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+              "module": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+              "moduleName": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+              "type": "cjs require",
+              "userRequest": "./images/Vector.svg",
+              "loc": "1:568-598"
+            },
+            {
+              "moduleId": "hsVj",
+              "moduleIdentifier": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+              "module": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+              "moduleName": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+              "type": "cjs require",
+              "userRequest": "./images/Vector.svg",
+              "loc": "1:979-1009"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "module.exports = \"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNOC45MzEuODgzbC00IDQtNC00IiBzdHJva2U9IiNmZmYiLz48L3N2Zz4=\""
+        },
+        {
+          "id": "hsVj",
+          "identifier": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+          "name": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+          "index": 0,
+          "index2": 3,
+          "size": 1871,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/app/index.pug"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "module.exports = \"<!DOCTYPE html><html lang=\\\"en\\\"><head><meta charset=\\\"UTF-8\\\"><meta name=\\\"viewport\\\" content=\\\"width=device-width, initial-scale=1.0\\\"><meta http-equiv=\\\"X-UA-Compatible\\\" content=\\\"ie=edge\\\"><title>Document</title></head><body><header><div class=\\\"header-wrapper\\\"><a class=\\\"logo\\\" href=\\\"#\\\"><img src=\\\"\" + require(\"./images/logo.png\") + \"\\\" alt=\\\"Logo\\\"></a><nav><ul class=\\\"menu\\\"><li><a class=\\\"menu-item\\\" href=\\\"#\\\">ВРАЧАМ И КЛИНИКАМ</a></li><li id=\\\"submenu-open\\\"><a class=\\\"menu-item\\\" href=\\\"#\\\">О МЕДДИА<img class=\\\"vector\\\" src=\\\"\" + require(\"./images/Vector.svg\") + \"\\\" alt=\\\"Vector\\\"></a><ul class=\\\"submenu\\\" href=\\\"#\\\"><li><a class=\\\"submenu-item\\\" href=\\\"#\\\">About us</a></li><li><a class=\\\"submenu-item\\\" href=\\\"#\\\">Terms</a></li><li><a class=\\\"submenu-item\\\" href=\\\"#\\\">Contact Us</a></li><li><a class=\\\"submenu-item\\\" href=\\\"#\\\">Help      </a></li></ul></li><li><a class=\\\"menu-item\\\" href=\\\"#\\\">РУБ | РУС<img class=\\\"vector\\\" src=\\\"\" + require(\"./images/Vector.svg\") + \"\\\" alt=\\\"Vector\\\"></a></li><li><a class=\\\"menu-item\\\" href=\\\"#\\\">ВОЙТИ</a></li><li><a class=\\\"menu-item menu-item_last\\\" href=\\\"#\\\">5<img class=\\\"like\\\" src=\\\"\" + require(\"./images/Like.svg\") + \"\\\" alt=\\\"\\\"></a></li></ul><div class=\\\"wrapper-menu\\\"><input type=\\\"checkbox\\\" id=\\\"check-menu\\\"><label for=\\\"check-menu\\\"></label><div class=\\\"burger-line first\\\"></div><div class=\\\"burger-line second\\\"></div><div class=\\\"burger-line third\\\"></div><div class=\\\"burger-line fourth\\\"></div><nav class=\\\"main-menu\\\"><a class=\\\"main-menu-item\\\" href=\\\"#\\\">About us</a><a class=\\\"main-menu-item\\\" href=\\\"#\\\">Terms</a><a class=\\\"main-menu-item\\\" href=\\\"#\\\">Contact Us</a><a class=\\\"main-menu-item\\\" href=\\\"#\\\">Help</a><a class=\\\"main-menu-item\\\" href=\\\"#\\\">РУБ | РУС</a><a class=\\\"main-menu-item\\\" href=\\\"#\\\">ВОЙТИ </a></nav></div></nav></div></header></body></html>\";"
+        },
+        {
+          "id": "sAkL",
+          "identifier": "/home/virk/Desktop/Medical/node_modules/url-loader/dist/cjs.js??ref--9!/home/virk/Desktop/Medical/node_modules/image-webpack-loader/index.js??ref--10!/home/virk/Desktop/Medical/app/images/Like.svg",
+          "name": "./images/Like.svg",
+          "index": 3,
+          "index2": 2,
+          "size": 597,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+          "issuerId": "hsVj",
+          "issuerName": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+          "issuerPath": [
+            {
+              "id": "hsVj",
+              "identifier": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+              "name": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 1,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "hsVj",
+              "moduleIdentifier": "/home/virk/Desktop/Medical/node_modules/html-webpack-plugin/lib/loader.js!/home/virk/Desktop/Medical/node_modules/html-loader/index.js!/home/virk/Desktop/Medical/node_modules/pug-html-loader/lib/index.js!/home/virk/Desktop/Medical/app/index.pug",
+              "module": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+              "moduleName": "../node_modules/html-webpack-plugin/lib/loader.js!./index.pug",
+              "type": "cjs require",
+              "userRequest": "./images/Like.svg",
+              "loc": "1:1176-1204"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "module.exports = \"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMTkiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE5LjI3MyAyLjA3OGE1LjQ5IDUuNDkgMCAwIDAtMy45MTQtMS42MmMtMS40OCAwLTIuODcuNTc3LTMuOTE4IDEuNjI1bC0uNTQ2LjU0Ny0uNTU2LS41NTZBNS41MTcgNS41MTcgMCAwIDAgNi40MTcuNDQ2YTUuNDk4IDUuNDk4IDAgMCAwLTMuOTEgMS42MkE1LjQ4MiA1LjQ4MiAwIDAgMCAuODg5IDUuOTgzYTUuNSA1LjUgMCAwIDAgMS42MjggMy45MTRsNy45NjMgNy45NjNhLjU3MS41NzEgMCAwIDAgLjgwNi4wMDRsNy45OC03Ljk1YTUuNTA0IDUuNTA0IDAgMCAwIDEuNjIzLTMuOTE4IDUuNDc4IDUuNDc4IDAgMCAwLTEuNjE1LTMuOTE4eiIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==\""
+        }
+      ],
+      "filteredModules": 0,
+      "children": [],
+      "name": "html-webpack-plugin for \"index.html\""
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/",
+      "outputPath": "/home/virk/Desktop/Medical/build",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": 0,
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 14960,
+          "names": [
+            "mini-css-extract-plugin"
+          ],
+          "files": [
+            "*"
+          ],
+          "hash": "3b3f1f4a1706c42990db",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "3zax",
+              "identifier": "/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+              "name": "../node_modules/css-loader??ref--8-1!../node_modules/postcss-loader/lib??ref--8-2!../node_modules/fast-sass-loader/lib!./styles/main.scss",
+              "index": 0,
+              "index2": 1,
+              "size": 12700,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "!!/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+                  "loc": "mini-css-extract-plugin"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 0,
+              "source": "exports = module.exports = require(\"../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Roboto:400,400i,700&subset=cyrillic);\", \"\"]);\n\n// module\nexports.push([module.id, \"/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */\\n/* Document\\n   ========================================================================== */\\n/**\\n * 1. Correct the line height in all browsers.\\n * 2. Prevent adjustments of font size after orientation changes in iOS.\\n */\\nhtml {\\n  line-height: 1.15;\\n  /* 1 */\\n  -webkit-text-size-adjust: 100%;\\n  /* 2 */ }\\n\\n/* Sections\\n   ========================================================================== */\\n/**\\n * Remove the margin in all browsers.\\n */\\nbody {\\n  margin: 0;\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box; }\\n\\n/**\\n * Correct the font size and margin on `h1` elements within `section` and\\n * `article` contexts in Chrome, Firefox, and Safari.\\n */\\nh1 {\\n  font-size: 2em;\\n  margin: 0.67em 0; }\\n\\n/* Grouping content\\n   ========================================================================== */\\n/**\\n * 1. Add the correct box sizing in Firefox.\\n * 2. Show the overflow in Edge and IE.\\n */\\nhr {\\n  -webkit-box-sizing: content-box;\\n          box-sizing: content-box;\\n  /* 1 */\\n  height: 0;\\n  /* 1 */\\n  overflow: visible;\\n  /* 2 */ }\\n\\n/**\\n * 1. Correct the inheritance and scaling of font size in all browsers.\\n * 2. Correct the odd `em` font sizing in all browsers.\\n */\\npre {\\n  font-family: monospace, monospace;\\n  /* 1 */\\n  font-size: 1em;\\n  /* 2 */ }\\n\\n/* Text-level semantics\\n   ========================================================================== */\\n/**\\n * Remove the gray background on active links in IE 10.\\n */\\na {\\n  background-color: transparent; }\\n\\n/**\\n * 1. Remove the bottom border in Chrome 57-\\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\\n */\\nabbr[title] {\\n  border-bottom: none;\\n  /* 1 */\\n  text-decoration: underline;\\n  /* 2 */\\n  -webkit-text-decoration: underline dotted;\\n          text-decoration: underline dotted;\\n  /* 2 */ }\\n\\n/**\\n * Add the correct font weight in Chrome, Edge, and Safari.\\n */\\nb,\\nstrong {\\n  font-weight: bolder; }\\n\\n/**\\n * 1. Correct the inheritance and scaling of font size in all browsers.\\n * 2. Correct the odd `em` font sizing in all browsers.\\n */\\ncode,\\nkbd,\\nsamp {\\n  font-family: monospace, monospace;\\n  /* 1 */\\n  font-size: 1em;\\n  /* 2 */ }\\n\\n/**\\n * Add the correct font size in all browsers.\\n */\\nsmall {\\n  font-size: 80%; }\\n\\n/**\\n * Prevent `sub` and `sup` elements from affecting the line height in\\n * all browsers.\\n */\\nsub,\\nsup {\\n  font-size: 75%;\\n  line-height: 0;\\n  position: relative;\\n  vertical-align: baseline; }\\n\\nsub {\\n  bottom: -0.25em; }\\n\\nsup {\\n  top: -0.5em; }\\n\\n/* Embedded content\\n   ========================================================================== */\\n/**\\n * Remove the border on images inside links in IE 10.\\n */\\nimg {\\n  border-style: none; }\\n\\n/* Forms\\n   ========================================================================== */\\n/**\\n * 1. Change the font styles in all browsers.\\n * 2. Remove the margin in Firefox and Safari.\\n */\\nbutton,\\ninput,\\noptgroup,\\nselect,\\ntextarea {\\n  font-family: inherit;\\n  /* 1 */\\n  font-size: 100%;\\n  /* 1 */\\n  line-height: 1.15;\\n  /* 1 */\\n  margin: 0;\\n  /* 2 */ }\\n\\n/**\\n * Show the overflow in IE.\\n * 1. Show the overflow in Edge.\\n */\\nbutton,\\ninput {\\n  /* 1 */\\n  overflow: visible; }\\n\\n/**\\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\\n * 1. Remove the inheritance of text transform in Firefox.\\n */\\nbutton,\\nselect {\\n  /* 1 */\\n  text-transform: none; }\\n\\n/**\\n * Correct the inability to style clickable types in iOS and Safari.\\n */\\nbutton,\\n[type=\\\"button\\\"],\\n[type=\\\"reset\\\"],\\n[type=\\\"submit\\\"] {\\n  -webkit-appearance: button; }\\n\\n/**\\n * Remove the inner border and padding in Firefox.\\n */\\nbutton::-moz-focus-inner,\\n[type=\\\"button\\\"]::-moz-focus-inner,\\n[type=\\\"reset\\\"]::-moz-focus-inner,\\n[type=\\\"submit\\\"]::-moz-focus-inner {\\n  border-style: none;\\n  padding: 0; }\\n\\n/**\\n * Restore the focus styles unset by the previous rule.\\n */\\nbutton:-moz-focusring,\\n[type=\\\"button\\\"]:-moz-focusring,\\n[type=\\\"reset\\\"]:-moz-focusring,\\n[type=\\\"submit\\\"]:-moz-focusring {\\n  outline: 1px dotted ButtonText; }\\n\\n/**\\n * Correct the padding in Firefox.\\n */\\nfieldset {\\n  padding: 0.35em 0.75em 0.625em; }\\n\\n/**\\n * 1. Correct the text wrapping in Edge and IE.\\n * 2. Correct the color inheritance from `fieldset` elements in IE.\\n * 3. Remove the padding so developers are not caught out when they zero out\\n *    `fieldset` elements in all browsers.\\n */\\nlegend {\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box;\\n  /* 1 */\\n  color: inherit;\\n  /* 2 */\\n  display: table;\\n  /* 1 */\\n  max-width: 100%;\\n  /* 1 */\\n  padding: 0;\\n  /* 3 */\\n  white-space: normal;\\n  /* 1 */ }\\n\\n/**\\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\\n */\\nprogress {\\n  vertical-align: baseline; }\\n\\n/**\\n * Remove the default vertical scrollbar in IE 10+.\\n */\\ntextarea {\\n  overflow: auto; }\\n\\n/**\\n * 1. Add the correct box sizing in IE 10.\\n * 2. Remove the padding in IE 10.\\n */\\n[type=\\\"checkbox\\\"],\\n[type=\\\"radio\\\"] {\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box;\\n  /* 1 */\\n  padding: 0;\\n  /* 2 */ }\\n\\n/**\\n * Correct the cursor style of increment and decrement buttons in Chrome.\\n */\\n[type=\\\"number\\\"]::-webkit-inner-spin-button,\\n[type=\\\"number\\\"]::-webkit-outer-spin-button {\\n  height: auto; }\\n\\n/**\\n * 1. Correct the odd appearance in Chrome and Safari.\\n * 2. Correct the outline style in Safari.\\n */\\n[type=\\\"search\\\"] {\\n  -webkit-appearance: textfield;\\n  /* 1 */\\n  outline-offset: -2px;\\n  /* 2 */ }\\n\\n/**\\n * Remove the inner padding in Chrome and Safari on macOS.\\n */\\n[type=\\\"search\\\"]::-webkit-search-decoration {\\n  -webkit-appearance: none; }\\n\\n/**\\n * 1. Correct the inability to style clickable types in iOS and Safari.\\n * 2. Change font properties to `inherit` in Safari.\\n */\\n::-webkit-file-upload-button {\\n  -webkit-appearance: button;\\n  /* 1 */\\n  font: inherit;\\n  /* 2 */ }\\n\\n/* Interactive\\n   ========================================================================== */\\n/*\\n * Add the correct display in Edge, IE 10+, and Firefox.\\n */\\ndetails {\\n  display: block; }\\n\\n/*\\n * Add the correct display in all browsers.\\n */\\nsummary {\\n  display: list-item; }\\n\\n/* Misc\\n   ========================================================================== */\\n/**\\n * Add the correct display in IE 10+.\\n */\\ntemplate {\\n  display: none; }\\n\\n/**\\n * Add the correct display in IE 10.\\n */\\n[hidden] {\\n  display: none; }\\n\\n/* http://meyerweb.com/eric/tools/css/reset/\\n   v2.0 | 20110126\\n   License: none (public domain)\\n*/\\n* {\\n  margin: 0;\\n  padding: 0;\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box; }\\n\\nhtml, body, div, span, applet, object, iframe,\\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\\na, abbr, acronym, address, big, cite, code,\\ndel, dfn, em, img, ins, kbd, q, s, samp,\\nsmall, strike, strong, sub, sup, tt, var,\\nb, u, i, center,\\ndl, dt, dd, ol, ul, li,\\nfieldset, form, label, legend,\\ntable, caption, tbody, tfoot, thead, tr, th, td,\\narticle, aside, canvas, details, embed,\\nfigure, figcaption, footer, header, hgroup,\\nmenu, nav, output, ruby, section, summary,\\ntime, mark, audio, video {\\n  margin: 0;\\n  padding: 0;\\n  border: 0;\\n  font-size: 100%;\\n  font: inherit;\\n  vertical-align: baseline; }\\n\\n/* HTML5 display-role reset for older browsers */\\narticle, aside, details, figcaption, figure,\\nfooter, header, hgroup, menu, nav, section {\\n  display: block; }\\n\\nbody {\\n  line-height: 1; }\\n\\nol, ul {\\n  list-style: none; }\\n\\nblockquote, q {\\n  quotes: none; }\\n\\nblockquote:before, blockquote:after,\\nq:before, q:after {\\n  content: '';\\n  content: none; }\\n\\ntable {\\n  border-collapse: collapse;\\n  border-spacing: 0; }\\n\\n/* colors */\\nbody {\\n  width: 100%;\\n  font-family: 'Roboto', sans-serif;\\n  font-size: 14px;\\n  line-height: 16px; }\\n\\na {\\n  text-decoration: none; }\\n\\nimg {\\n  max-width: 100%; }\\n\\nheader {\\n  width: 100%;\\n  background: #48B29E;\\n  font-size: 12px;\\n  line-height: 14px;\\n  font-weight: bold;\\n  color: #fff; }\\n\\n.header-wrapper {\\n  max-width: 1280px;\\n  height: 64px;\\n  margin: 0 auto;\\n  padding: 0 20px;\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-pack: justify;\\n      -ms-flex-pack: justify;\\n          justify-content: space-between;\\n  -webkit-box-align: center;\\n      -ms-flex-align: center;\\n          align-items: center; }\\n\\n.logo img {\\n  height: 42px; }\\n  .logo img:hover {\\n    opacity: .5;\\n    -webkit-transition: .6s;\\n    transition: .6s; }\\n\\n.menu {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex; }\\n\\n.menu-item {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  color: #fff;\\n  font-size: 12px;\\n  font-weight: bold;\\n  line-height: 14px;\\n  text-transform: uppercase;\\n  padding: 17px 16px 16px 23px; }\\n  .menu-item:hover {\\n    background: rgba(0, 0, 0, 0.1);\\n    -webkit-transition: .6s;\\n    transition: .6s; }\\n\\n.menu-item_last {\\n  position: relative;\\n  padding: 17px 0 0 54px; }\\n  .menu-item_last:hover {\\n    background: inherit; }\\n\\n.like {\\n  position: absolute;\\n  left: 25px;\\n  top: 15px; }\\n\\n.vector {\\n  margin-left: 12px; }\\n\\n.submenu {\\n  display: none;\\n  position: absolute;\\n  left: 0;\\n  top: 64px;\\n  width: 100%;\\n  background: #fff;\\n  height: 96px; }\\n\\n#submenu-open:hover .submenu {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-pack: center;\\n      -ms-flex-pack: center;\\n          justify-content: center;\\n  -webkit-box-align: center;\\n      -ms-flex-align: center;\\n          align-items: center; }\\n\\n.submenu-item {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  width: 115px;\\n  padding: 11px 0 12px 0;\\n  -webkit-box-pack: center;\\n      -ms-flex-pack: center;\\n          justify-content: center;\\n  font-size: 14px;\\n  font-weight: 400;\\n  line-height: 16px;\\n  color: #4f4f4f; }\\n  .submenu-item:hover {\\n    background: #ececec;\\n    -webkit-transition: .6s;\\n    transition: .6s; }\\n\\n.wrapper-menu {\\n  display: none; }\\n\\n@media (max-width: 768px) {\\n  .menu {\\n    display: none; }\\n  .wrapper-menu {\\n    display: -webkit-box;\\n    display: -ms-flexbox;\\n    display: flex;\\n    width: 40px;\\n    text-align: center;\\n    height: 40px; }\\n  #check-menu {\\n    display: none; }\\n  label {\\n    display: block;\\n    position: absolute;\\n    top: 0;\\n    left: 0;\\n    width: 100%;\\n    height: 100%;\\n    cursor: pointer;\\n    z-index: 2;\\n    line-height: 40px; }\\n  .burger-line {\\n    position: absolute;\\n    top: 22px;\\n    right: 22px;\\n    width: 35px;\\n    height: 2px;\\n    background-color: #fff;\\n    -webkit-transition: .5s all;\\n    transition: .5s all; }\\n  .second, .third {\\n    top: 32px; }\\n  .fourth {\\n    top: 42px; }\\n  .main-menu {\\n    display: block;\\n    position: absolute;\\n    width: 100vw;\\n    left: 0;\\n    top: -176px;\\n    -webkit-transform: translateY(100%);\\n            transform: translateY(100%);\\n    max-height: 0;\\n    font-size: 0;\\n    overflow: hidden;\\n    -webkit-transition: .5s all;\\n    transition: .5s all;\\n    background: #fff; }\\n  .main-menu-item {\\n    display: block;\\n    width: 100%;\\n    padding: 12px;\\n    color: #4f4f4f;\\n    text-decoration: none; }\\n    .main-menu-item:hover {\\n      background: #ececec;\\n      -webkit-transition: .6s;\\n      transition: .6s; }\\n    .main-menu-item:last-child {\\n      color: #fff;\\n      background: #48B29E;\\n      font-weight: bold; }\\n    .main-menu-item:nth-child(5) {\\n      color: #fff;\\n      background: #FF5A5F;\\n      font-weight: bold; }\\n  #check-menu:checked ~ .main-menu {\\n    max-height: 100vh;\\n    font-size: 14px;\\n    line-height: 16px; }\\n  #check-menu:checked ~ .first {\\n    display: none; }\\n  #check-menu:checked ~ .second {\\n    -webkit-transform: rotate(45deg);\\n            transform: rotate(45deg); }\\n  #check-menu:checked ~ .third {\\n    -webkit-transform: rotate(-45deg);\\n            transform: rotate(-45deg); }\\n  #check-menu:checked ~ .fourth {\\n    display: none; } }\\n\\n/*\\n.main li ul {\\n    display: none;\\n}\\n.main li:hover ul {\\n    display: block;\\n}\\n.main li ul li {\\n    display: inline; \\n    margin: 0 10px;\\n}\\n*/\\n\", \"\"]);\n\n// exports\n"
+            },
+            {
+              "id": "e0uS",
+              "identifier": "/home/virk/Desktop/Medical/node_modules/css-loader/lib/css-base.js",
+              "name": "../node_modules/css-loader/lib/css-base.js",
+              "index": 1,
+              "index2": 0,
+              "size": 2260,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                0
+              ],
+              "issuer": "/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+              "issuerId": "3zax",
+              "issuerName": "../node_modules/css-loader??ref--8-1!../node_modules/postcss-loader/lib??ref--8-2!../node_modules/fast-sass-loader/lib!./styles/main.scss",
+              "issuerPath": [
+                {
+                  "id": "3zax",
+                  "identifier": "/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+                  "name": "../node_modules/css-loader??ref--8-1!../node_modules/postcss-loader/lib??ref--8-2!../node_modules/fast-sass-loader/lib!./styles/main.scss"
+                }
+              ],
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": "3zax",
+                  "moduleIdentifier": "/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+                  "module": "../node_modules/css-loader??ref--8-1!../node_modules/postcss-loader/lib??ref--8-2!../node_modules/fast-sass-loader/lib!./styles/main.scss",
+                  "moduleName": "../node_modules/css-loader??ref--8-1!../node_modules/postcss-loader/lib??ref--8-2!../node_modules/fast-sass-loader/lib!./styles/main.scss",
+                  "type": "cjs require",
+                  "userRequest": "../../node_modules/css-loader/lib/css-base.js",
+                  "loc": "1:27-83"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [
+                "ModuleConcatenation bailout: Module is not an ECMAScript module"
+              ],
+              "depth": 1,
+              "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "mini-css-extract-plugin",
+              "request": "!!/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "3zax",
+          "identifier": "/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+          "name": "../node_modules/css-loader??ref--8-1!../node_modules/postcss-loader/lib??ref--8-2!../node_modules/fast-sass-loader/lib!./styles/main.scss",
+          "index": 0,
+          "index2": 1,
+          "size": 12700,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "!!/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+              "loc": "mini-css-extract-plugin"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 0,
+          "source": "exports = module.exports = require(\"../../node_modules/css-loader/lib/css-base.js\")(false);\n// imports\nexports.push([module.id, \"@import url(https://fonts.googleapis.com/css?family=Roboto:400,400i,700&subset=cyrillic);\", \"\"]);\n\n// module\nexports.push([module.id, \"/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */\\n/* Document\\n   ========================================================================== */\\n/**\\n * 1. Correct the line height in all browsers.\\n * 2. Prevent adjustments of font size after orientation changes in iOS.\\n */\\nhtml {\\n  line-height: 1.15;\\n  /* 1 */\\n  -webkit-text-size-adjust: 100%;\\n  /* 2 */ }\\n\\n/* Sections\\n   ========================================================================== */\\n/**\\n * Remove the margin in all browsers.\\n */\\nbody {\\n  margin: 0;\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box; }\\n\\n/**\\n * Correct the font size and margin on `h1` elements within `section` and\\n * `article` contexts in Chrome, Firefox, and Safari.\\n */\\nh1 {\\n  font-size: 2em;\\n  margin: 0.67em 0; }\\n\\n/* Grouping content\\n   ========================================================================== */\\n/**\\n * 1. Add the correct box sizing in Firefox.\\n * 2. Show the overflow in Edge and IE.\\n */\\nhr {\\n  -webkit-box-sizing: content-box;\\n          box-sizing: content-box;\\n  /* 1 */\\n  height: 0;\\n  /* 1 */\\n  overflow: visible;\\n  /* 2 */ }\\n\\n/**\\n * 1. Correct the inheritance and scaling of font size in all browsers.\\n * 2. Correct the odd `em` font sizing in all browsers.\\n */\\npre {\\n  font-family: monospace, monospace;\\n  /* 1 */\\n  font-size: 1em;\\n  /* 2 */ }\\n\\n/* Text-level semantics\\n   ========================================================================== */\\n/**\\n * Remove the gray background on active links in IE 10.\\n */\\na {\\n  background-color: transparent; }\\n\\n/**\\n * 1. Remove the bottom border in Chrome 57-\\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\\n */\\nabbr[title] {\\n  border-bottom: none;\\n  /* 1 */\\n  text-decoration: underline;\\n  /* 2 */\\n  -webkit-text-decoration: underline dotted;\\n          text-decoration: underline dotted;\\n  /* 2 */ }\\n\\n/**\\n * Add the correct font weight in Chrome, Edge, and Safari.\\n */\\nb,\\nstrong {\\n  font-weight: bolder; }\\n\\n/**\\n * 1. Correct the inheritance and scaling of font size in all browsers.\\n * 2. Correct the odd `em` font sizing in all browsers.\\n */\\ncode,\\nkbd,\\nsamp {\\n  font-family: monospace, monospace;\\n  /* 1 */\\n  font-size: 1em;\\n  /* 2 */ }\\n\\n/**\\n * Add the correct font size in all browsers.\\n */\\nsmall {\\n  font-size: 80%; }\\n\\n/**\\n * Prevent `sub` and `sup` elements from affecting the line height in\\n * all browsers.\\n */\\nsub,\\nsup {\\n  font-size: 75%;\\n  line-height: 0;\\n  position: relative;\\n  vertical-align: baseline; }\\n\\nsub {\\n  bottom: -0.25em; }\\n\\nsup {\\n  top: -0.5em; }\\n\\n/* Embedded content\\n   ========================================================================== */\\n/**\\n * Remove the border on images inside links in IE 10.\\n */\\nimg {\\n  border-style: none; }\\n\\n/* Forms\\n   ========================================================================== */\\n/**\\n * 1. Change the font styles in all browsers.\\n * 2. Remove the margin in Firefox and Safari.\\n */\\nbutton,\\ninput,\\noptgroup,\\nselect,\\ntextarea {\\n  font-family: inherit;\\n  /* 1 */\\n  font-size: 100%;\\n  /* 1 */\\n  line-height: 1.15;\\n  /* 1 */\\n  margin: 0;\\n  /* 2 */ }\\n\\n/**\\n * Show the overflow in IE.\\n * 1. Show the overflow in Edge.\\n */\\nbutton,\\ninput {\\n  /* 1 */\\n  overflow: visible; }\\n\\n/**\\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\\n * 1. Remove the inheritance of text transform in Firefox.\\n */\\nbutton,\\nselect {\\n  /* 1 */\\n  text-transform: none; }\\n\\n/**\\n * Correct the inability to style clickable types in iOS and Safari.\\n */\\nbutton,\\n[type=\\\"button\\\"],\\n[type=\\\"reset\\\"],\\n[type=\\\"submit\\\"] {\\n  -webkit-appearance: button; }\\n\\n/**\\n * Remove the inner border and padding in Firefox.\\n */\\nbutton::-moz-focus-inner,\\n[type=\\\"button\\\"]::-moz-focus-inner,\\n[type=\\\"reset\\\"]::-moz-focus-inner,\\n[type=\\\"submit\\\"]::-moz-focus-inner {\\n  border-style: none;\\n  padding: 0; }\\n\\n/**\\n * Restore the focus styles unset by the previous rule.\\n */\\nbutton:-moz-focusring,\\n[type=\\\"button\\\"]:-moz-focusring,\\n[type=\\\"reset\\\"]:-moz-focusring,\\n[type=\\\"submit\\\"]:-moz-focusring {\\n  outline: 1px dotted ButtonText; }\\n\\n/**\\n * Correct the padding in Firefox.\\n */\\nfieldset {\\n  padding: 0.35em 0.75em 0.625em; }\\n\\n/**\\n * 1. Correct the text wrapping in Edge and IE.\\n * 2. Correct the color inheritance from `fieldset` elements in IE.\\n * 3. Remove the padding so developers are not caught out when they zero out\\n *    `fieldset` elements in all browsers.\\n */\\nlegend {\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box;\\n  /* 1 */\\n  color: inherit;\\n  /* 2 */\\n  display: table;\\n  /* 1 */\\n  max-width: 100%;\\n  /* 1 */\\n  padding: 0;\\n  /* 3 */\\n  white-space: normal;\\n  /* 1 */ }\\n\\n/**\\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\\n */\\nprogress {\\n  vertical-align: baseline; }\\n\\n/**\\n * Remove the default vertical scrollbar in IE 10+.\\n */\\ntextarea {\\n  overflow: auto; }\\n\\n/**\\n * 1. Add the correct box sizing in IE 10.\\n * 2. Remove the padding in IE 10.\\n */\\n[type=\\\"checkbox\\\"],\\n[type=\\\"radio\\\"] {\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box;\\n  /* 1 */\\n  padding: 0;\\n  /* 2 */ }\\n\\n/**\\n * Correct the cursor style of increment and decrement buttons in Chrome.\\n */\\n[type=\\\"number\\\"]::-webkit-inner-spin-button,\\n[type=\\\"number\\\"]::-webkit-outer-spin-button {\\n  height: auto; }\\n\\n/**\\n * 1. Correct the odd appearance in Chrome and Safari.\\n * 2. Correct the outline style in Safari.\\n */\\n[type=\\\"search\\\"] {\\n  -webkit-appearance: textfield;\\n  /* 1 */\\n  outline-offset: -2px;\\n  /* 2 */ }\\n\\n/**\\n * Remove the inner padding in Chrome and Safari on macOS.\\n */\\n[type=\\\"search\\\"]::-webkit-search-decoration {\\n  -webkit-appearance: none; }\\n\\n/**\\n * 1. Correct the inability to style clickable types in iOS and Safari.\\n * 2. Change font properties to `inherit` in Safari.\\n */\\n::-webkit-file-upload-button {\\n  -webkit-appearance: button;\\n  /* 1 */\\n  font: inherit;\\n  /* 2 */ }\\n\\n/* Interactive\\n   ========================================================================== */\\n/*\\n * Add the correct display in Edge, IE 10+, and Firefox.\\n */\\ndetails {\\n  display: block; }\\n\\n/*\\n * Add the correct display in all browsers.\\n */\\nsummary {\\n  display: list-item; }\\n\\n/* Misc\\n   ========================================================================== */\\n/**\\n * Add the correct display in IE 10+.\\n */\\ntemplate {\\n  display: none; }\\n\\n/**\\n * Add the correct display in IE 10.\\n */\\n[hidden] {\\n  display: none; }\\n\\n/* http://meyerweb.com/eric/tools/css/reset/\\n   v2.0 | 20110126\\n   License: none (public domain)\\n*/\\n* {\\n  margin: 0;\\n  padding: 0;\\n  -webkit-box-sizing: border-box;\\n          box-sizing: border-box; }\\n\\nhtml, body, div, span, applet, object, iframe,\\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\\na, abbr, acronym, address, big, cite, code,\\ndel, dfn, em, img, ins, kbd, q, s, samp,\\nsmall, strike, strong, sub, sup, tt, var,\\nb, u, i, center,\\ndl, dt, dd, ol, ul, li,\\nfieldset, form, label, legend,\\ntable, caption, tbody, tfoot, thead, tr, th, td,\\narticle, aside, canvas, details, embed,\\nfigure, figcaption, footer, header, hgroup,\\nmenu, nav, output, ruby, section, summary,\\ntime, mark, audio, video {\\n  margin: 0;\\n  padding: 0;\\n  border: 0;\\n  font-size: 100%;\\n  font: inherit;\\n  vertical-align: baseline; }\\n\\n/* HTML5 display-role reset for older browsers */\\narticle, aside, details, figcaption, figure,\\nfooter, header, hgroup, menu, nav, section {\\n  display: block; }\\n\\nbody {\\n  line-height: 1; }\\n\\nol, ul {\\n  list-style: none; }\\n\\nblockquote, q {\\n  quotes: none; }\\n\\nblockquote:before, blockquote:after,\\nq:before, q:after {\\n  content: '';\\n  content: none; }\\n\\ntable {\\n  border-collapse: collapse;\\n  border-spacing: 0; }\\n\\n/* colors */\\nbody {\\n  width: 100%;\\n  font-family: 'Roboto', sans-serif;\\n  font-size: 14px;\\n  line-height: 16px; }\\n\\na {\\n  text-decoration: none; }\\n\\nimg {\\n  max-width: 100%; }\\n\\nheader {\\n  width: 100%;\\n  background: #48B29E;\\n  font-size: 12px;\\n  line-height: 14px;\\n  font-weight: bold;\\n  color: #fff; }\\n\\n.header-wrapper {\\n  max-width: 1280px;\\n  height: 64px;\\n  margin: 0 auto;\\n  padding: 0 20px;\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-pack: justify;\\n      -ms-flex-pack: justify;\\n          justify-content: space-between;\\n  -webkit-box-align: center;\\n      -ms-flex-align: center;\\n          align-items: center; }\\n\\n.logo img {\\n  height: 42px; }\\n  .logo img:hover {\\n    opacity: .5;\\n    -webkit-transition: .6s;\\n    transition: .6s; }\\n\\n.menu {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex; }\\n\\n.menu-item {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  color: #fff;\\n  font-size: 12px;\\n  font-weight: bold;\\n  line-height: 14px;\\n  text-transform: uppercase;\\n  padding: 17px 16px 16px 23px; }\\n  .menu-item:hover {\\n    background: rgba(0, 0, 0, 0.1);\\n    -webkit-transition: .6s;\\n    transition: .6s; }\\n\\n.menu-item_last {\\n  position: relative;\\n  padding: 17px 0 0 54px; }\\n  .menu-item_last:hover {\\n    background: inherit; }\\n\\n.like {\\n  position: absolute;\\n  left: 25px;\\n  top: 15px; }\\n\\n.vector {\\n  margin-left: 12px; }\\n\\n.submenu {\\n  display: none;\\n  position: absolute;\\n  left: 0;\\n  top: 64px;\\n  width: 100%;\\n  background: #fff;\\n  height: 96px; }\\n\\n#submenu-open:hover .submenu {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  -webkit-box-pack: center;\\n      -ms-flex-pack: center;\\n          justify-content: center;\\n  -webkit-box-align: center;\\n      -ms-flex-align: center;\\n          align-items: center; }\\n\\n.submenu-item {\\n  display: -webkit-box;\\n  display: -ms-flexbox;\\n  display: flex;\\n  width: 115px;\\n  padding: 11px 0 12px 0;\\n  -webkit-box-pack: center;\\n      -ms-flex-pack: center;\\n          justify-content: center;\\n  font-size: 14px;\\n  font-weight: 400;\\n  line-height: 16px;\\n  color: #4f4f4f; }\\n  .submenu-item:hover {\\n    background: #ececec;\\n    -webkit-transition: .6s;\\n    transition: .6s; }\\n\\n.wrapper-menu {\\n  display: none; }\\n\\n@media (max-width: 768px) {\\n  .menu {\\n    display: none; }\\n  .wrapper-menu {\\n    display: -webkit-box;\\n    display: -ms-flexbox;\\n    display: flex;\\n    width: 40px;\\n    text-align: center;\\n    height: 40px; }\\n  #check-menu {\\n    display: none; }\\n  label {\\n    display: block;\\n    position: absolute;\\n    top: 0;\\n    left: 0;\\n    width: 100%;\\n    height: 100%;\\n    cursor: pointer;\\n    z-index: 2;\\n    line-height: 40px; }\\n  .burger-line {\\n    position: absolute;\\n    top: 22px;\\n    right: 22px;\\n    width: 35px;\\n    height: 2px;\\n    background-color: #fff;\\n    -webkit-transition: .5s all;\\n    transition: .5s all; }\\n  .second, .third {\\n    top: 32px; }\\n  .fourth {\\n    top: 42px; }\\n  .main-menu {\\n    display: block;\\n    position: absolute;\\n    width: 100vw;\\n    left: 0;\\n    top: -176px;\\n    -webkit-transform: translateY(100%);\\n            transform: translateY(100%);\\n    max-height: 0;\\n    font-size: 0;\\n    overflow: hidden;\\n    -webkit-transition: .5s all;\\n    transition: .5s all;\\n    background: #fff; }\\n  .main-menu-item {\\n    display: block;\\n    width: 100%;\\n    padding: 12px;\\n    color: #4f4f4f;\\n    text-decoration: none; }\\n    .main-menu-item:hover {\\n      background: #ececec;\\n      -webkit-transition: .6s;\\n      transition: .6s; }\\n    .main-menu-item:last-child {\\n      color: #fff;\\n      background: #48B29E;\\n      font-weight: bold; }\\n    .main-menu-item:nth-child(5) {\\n      color: #fff;\\n      background: #FF5A5F;\\n      font-weight: bold; }\\n  #check-menu:checked ~ .main-menu {\\n    max-height: 100vh;\\n    font-size: 14px;\\n    line-height: 16px; }\\n  #check-menu:checked ~ .first {\\n    display: none; }\\n  #check-menu:checked ~ .second {\\n    -webkit-transform: rotate(45deg);\\n            transform: rotate(45deg); }\\n  #check-menu:checked ~ .third {\\n    -webkit-transform: rotate(-45deg);\\n            transform: rotate(-45deg); }\\n  #check-menu:checked ~ .fourth {\\n    display: none; } }\\n\\n/*\\n.main li ul {\\n    display: none;\\n}\\n.main li:hover ul {\\n    display: block;\\n}\\n.main li ul li {\\n    display: inline; \\n    margin: 0 10px;\\n}\\n*/\\n\", \"\"]);\n\n// exports\n"
+        },
+        {
+          "id": "e0uS",
+          "identifier": "/home/virk/Desktop/Medical/node_modules/css-loader/lib/css-base.js",
+          "name": "../node_modules/css-loader/lib/css-base.js",
+          "index": 1,
+          "index2": 0,
+          "size": 2260,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            0
+          ],
+          "issuer": "/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+          "issuerId": "3zax",
+          "issuerName": "../node_modules/css-loader??ref--8-1!../node_modules/postcss-loader/lib??ref--8-2!../node_modules/fast-sass-loader/lib!./styles/main.scss",
+          "issuerPath": [
+            {
+              "id": "3zax",
+              "identifier": "/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+              "name": "../node_modules/css-loader??ref--8-1!../node_modules/postcss-loader/lib??ref--8-2!../node_modules/fast-sass-loader/lib!./styles/main.scss"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": "3zax",
+              "moduleIdentifier": "/home/virk/Desktop/Medical/node_modules/css-loader/index.js??ref--8-1!/home/virk/Desktop/Medical/node_modules/postcss-loader/lib/index.js??ref--8-2!/home/virk/Desktop/Medical/node_modules/fast-sass-loader/lib/index.js!/home/virk/Desktop/Medical/app/styles/main.scss",
+              "module": "../node_modules/css-loader??ref--8-1!../node_modules/postcss-loader/lib??ref--8-2!../node_modules/fast-sass-loader/lib!./styles/main.scss",
+              "moduleName": "../node_modules/css-loader??ref--8-1!../node_modules/postcss-loader/lib??ref--8-2!../node_modules/fast-sass-loader/lib!./styles/main.scss",
+              "type": "cjs require",
+              "userRequest": "../../node_modules/css-loader/lib/css-base.js",
+              "loc": "1:27-83"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 1,
+          "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
+        }
+      ],
+      "filteredModules": 0,
+      "children": [],
+      "name": "mini-css-extract-plugin ../node_modules/css-loader/index.js??ref--8-1!../node_modules/postcss-loader/lib/index.js??ref--8-2!../node_modules/fast-sass-loader/lib/index.js!styles/main.scss"
+    }
+  ]
+}
