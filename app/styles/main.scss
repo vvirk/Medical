@@ -51,6 +51,7 @@ header {
 
  .menu-item {
      display: flex;
+     align-items: center;
      color: #fff;
      font-size: 12px;
      font-weight: bold;
@@ -78,7 +79,9 @@ header {
  }
 
  .vector {
-     margin-left: 12px;
+     margin: 0 4px 0 8px;
+     width: 10px;
+     height: 8px;
  }
 
  .submenu {
