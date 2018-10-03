@@ -1,6 +1,6 @@
-<svg width="22" height="11" viewBox="0 0 22 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="20" height="9" viewBox="0 0 22 11" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="Group">
-<path id="Vector 2" d="M16.9541 0.757324L20.9541 5.25732L16.9541 9.75732" stroke="#48B29E"/>
-<line id="Line" x1="20.9541" y1="5.25732" x2="0.954102" y2="5.25732" stroke="#48B29E"/>
+<path id="Vector 2" d="M16.9541 0.757324L20.9541 5.25732L16.9541 9.75732" stroke="#BDBDBD"/>
+<line id="Line" x1="20.9541" y1="5.25732" x2="0.954102" y2="5.25732" stroke="#BDBDBD"/>
 </g>
 </svg>
