@@ -2,6 +2,6 @@
 
 // red button
 @mixin hover-red-button {
-    background: darken($red,5%);
+    background: darken($red,4);
     transition: .6s;
 }

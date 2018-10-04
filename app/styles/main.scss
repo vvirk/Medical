@@ -629,3 +629,373 @@ header {
         display: none;
     }
 }
+
+            // Benefits
+
+.benefits {
+    width: 100%;
+    text-align: center;
+}
+
+.ofer-mobile {
+    display: none;
+}
+
+.benefits-wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 54px 10px 82px 10px;
+}
+
+.benefits-title {
+    font-size: 36px;
+    line-height: 46px;
+    color: $black;
+    text-align: center;
+    max-width: 770px;
+}
+
+.benefits-title div {
+    display: inline-block;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    line-height: 34px;
+    color: #fff;
+    background-color: $red;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.ofer-and-organizations {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1091px;
+    padding: 30px 10px;
+}
+
+.ofer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 419px;
+    background-color: #fff;
+    padding: 36px 33px 40px 33px;
+}
+
+.ofer-title {
+    max-width: 264px;
+    line-height: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    color: $green;
+}
+
+.ofer-benefits {
+    display: flex;
+    flex-direction: column;
+    padding-top: 22px;
+    padding-bottom: 34px;
+}
+
+.benefit {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 19px;
+}
+
+.benefit-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60px;
+    min-height: 60px;
+    background-color: $green;
+    border-radius: 50%;
+    margin-right: 21px;
+}
+
+.benefit-description {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left; 
+}
+
+.ofer-button {
+    padding: 12px 61px;
+    background-color: $green;
+    &:hover {
+        background-color: #379D89;
+        transition: .6s;
+    }
+}
+
+.organizations {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 572px;
+    padding-top: 10px;
+}
+
+.organization {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8px;
+    padding-right: 20px;
+}
+
+.organization-logo {
+    margin-right: 16px;
+}
+
+.organization-name {
+    width: 190px;
+    text-align: left;
+}
+.benefits-note-wrapper {
+    width: 100%;
+    position: relative;
+    padding:5px;
+}
+
+.benefits-note {
+    display: flex;
+    position: absolute;
+    right: 89px;
+    max-width: 568px;
+    text-align: left;
+}
+
+.note-icon {
+    display: inline-block;
+    text-align: center;
+    min-width: 16px;
+    height: 16px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    background-color: $red;
+    border-radius: 50%;
+    margin-right: 9px;
+}
+
+@media (max-width: 1060px) {
+
+    .ofer-and-organizations {
+        flex-direction: column;
+        align-items: center;
+    }
+    .organizations {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .organization {
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 850px) {
+    .benefits-title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+}
+
+@media (max-width: 550px) {
+    .benefits-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width: 419px) {
+    .benefits {
+        display: none;
+    }
+
+    .ofer-mobile {
+        display: flex;
+        flex-direction: column;
+        padding: 37px 30px 27px 30px;
+        text-align: center;
+        background: $green;
+    }
+
+    .ofer-mobile-title {
+        color: #fff;
+        font-size: 24px;
+        line-height: 31px;
+        padding-bottom: 30px;
+    }
+
+    .ofer-button-mobile {
+        display: block;
+        background-color: $red;
+        padding-left: 21px;
+        padding-right: 21px;
+        &:hover {
+            @include hover-red-button;
+        }
+    }
+}
+
+       // Cooperation
+
+.cooperation {
+    width: 100%;
+}       
+
+.cooperation-wrapper {
+    width: 100%;
+    max-width: 1048px;
+    padding: 20px 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cooperation-pic {
+    min-width: 257px;
+    height: 257px;
+    background-color: #56CCF2;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.cooperation-pic img {
+    position: absolute;
+    bottom: -6px;
+    right: 15px;
+}
+
+.cooperation-info {
+    text-align: center;
+    padding: 0;
+}
+
+.coperation-title {
+    font-size: 18px;
+    line-height: 21px;
+    padding-top: 46px;
+    padding-bottom: 20px;
+}
+
+.coperation-subtitle {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+@media (max-width: 915px) {
+    .cooperation {
+        display: none;
+    }
+}
+
+        // footer
+
+footer {
+    width: 100%;
+    background: $black;
+    color: #fff;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1050px;
+    padding: 54px 10px 0 10px;
+    margin: 0 auto;
+}
+
+.footer-contacts {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 53px;
+}
+
+.call-us,.write-us {
+    display: flex;
+}
+
+.phone-number {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    border: #56CCF2 1px solid;
+    padding: 6px;
+    border-radius: 30px;
+    margin-right: 19px;
+}
+
+.slogan {
+    max-width: 354px;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.button-write-us {
+    padding: 12px 28px;
+}
+
+.social {
+    display: flex;
+    width: 38px;
+    height: 40px;
+    background-color: #4E75A0;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    &:hover {
+        background-color: darken(#4E75A0, 10);
+        transition: .6s;
+    }
+}
+
+.social-fb {
+    background-color: #395799;
+    margin-left: 8px;
+    &:hover {
+        background-color: darken(#395799, 10);
+        transition: .6s;
+    }
+}
+
+@media (max-width: 860px) {
+    .footer-contacts {
+        flex-wrap: wrap;
+    }
+
+    .call-us {
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 580px) {
+    .footer-wrapper {
+        padding-top: 25px;
+    }
+
+    .call-us {
+        flex-wrap: wrap;
+    }
+    
+    .phone-number {
+        margin-bottom: 10px;
+    }
+}
