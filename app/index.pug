@@ -50,7 +50,7 @@ html(lang="en")
               a.main-menu-item(href="#") ВОЙТИ 
     div.banner
       div.banner-wrapper
-        h1.title 
+        h1.banner-title 
           |Medical — Ваше здоровье
           br 
           |в надежных руках.
@@ -60,7 +60,7 @@ html(lang="en")
           button.button Найти
     div.services
       div.services-wrapper
-        h2.servises-title Выбрать лечение по всему миру
+        h2.title Выбрать лечение по всему миру
         div.services-content
           div.service
             div.service-content
@@ -92,11 +92,12 @@ html(lang="en")
               h3.service-title Германия
               p.service-subtitle ОНКОЛОГИЯ 
               p.service-subtitle СТОМАТОЛОГИЯ            
-        h2.servises-title.servises-title-none Найти лечение среди популярных  специальностей
-        h2.servises-title.servises-title-320px Найти лечение по специальности
+        h2.title.servises-title-none Найти лечение среди популярных  специальностей
+        h2.title.servises-title-320px Найти лечение по специальности
         div.other-services
           div.specialty
-            img.specialty-pic(src="images/Specialty.jpg", alt="Specialty")
+            div
+              img.specialty-pic(src="images/Specialty.jpg", alt="Specialty")
             h3.specialty-title Пластическая Хирургия
             p.specialty-subtitle Подтяжка лица
             p.specialty-subtitle Биотерапия
@@ -127,7 +128,7 @@ html(lang="en")
             img.specialty-pic-arrow(src="images/Arrow.svg", alt="Arrow")
     div.patient-info
       div.patient-info-wrapper
-        div.patient-info-title Medikal Пациентам
+        h2.title.patient-info-title Medikal Пациентам
         div.info-wrapper
           div.info
             div.info-logo
@@ -136,7 +137,7 @@ html(lang="en")
             div.info-description Oгромный выбор многопрофильных и специализированных клиник
           div.info
             div.info-logo
-              img(src="images/List-icon.svg", alt="info logo")
+              img.info-pic(src="images/List-icon.svg", alt="info logo")
             h3.info-title Что-то другое
             div.info-description Доступ к лицензиям и другим документам, принятых в системе сертификации конкретного государства    
           div.info
@@ -146,13 +147,13 @@ html(lang="en")
             div.info-description Подробное описание услуг и особенностей обслуживания в разных медицинских центрах  
           div.info
             div.info-logo
-              img(src="images/List-icon.svg", alt="info logo")
+              img.info-pic(src="images/List-icon.svg", alt="info logo")
             h3.info-title Защита
             div.info-description Специальная система защиты данных от взлома
         button.button.registration-button Зарегистрироваться
     div.benefits
       div.benefits-wrapper
-        h2.benefits-title Преимущества Medical для признанных  клиник и врачей
+        h2.title.benefits-title Преимущества Medical для признанных  клиник и врачей
           div *
         div.ofer-and-organizations
           div.ofer
@@ -215,14 +216,19 @@ html(lang="en")
         div.cooperation-info
           h3.coperation-title Мedikal работает на прямую с ведущими клиниками
           p.coperation-subtitle 
-            |Наши услуги для вас, мы оказываем консультации по соглашению с клиниками-партнерами 
+            |Наши услуги для вас, мы оказываем консультации по соглашению с клиниками-партнерами
+          div.triangle
+          div.triangle.triangle-second
+          div.triangle.triangle-third   
         div.cooperation-pic
           img(src="images/Doctor.png" alt="cooperation-pic")
     footer
       div.footer-wrapper
         div.footer-contacts
           div.call-us
-            a.phone-number(href="tel:+7464235619") +7464235619
+            a.logo
+              img(src="images/logo-small.png", alt="")
+            a.phone-number(href="tel:+7464235619") +7464 235 619
             p.slogan Вы всегда можетет получить консультацию у наших менеджеров!
           div.write-us
             button.button.button-write-us НАПИСАТЬ НАМ
@@ -231,3 +237,56 @@ html(lang="en")
             a.social.social-fb(href="#")
               img(src="images/fb.svg")  
         div.footer-columns
+          ul.column
+            li
+              a.column-item.colum-item-title(href="#") О МЕДДИА
+            li
+              a.column-item(href="#") О компании
+            li
+              a.column-item(href="#") Наша команда   
+            li
+              a.column-item(href="#") Как это работает
+            li
+              a.column-item(href="#") Организационный сбор
+            li
+              a.column-item(href="#") Второе мнение
+            li
+              a.column-item(href="#") Блог
+          ul.column
+            li
+              a.column-item.colum-item-title(href="#") ИСКАТЬ ПО
+            li
+              a.column-item(href="#") Стананам
+            li
+              a.column-item(href="#") Клиникам   
+            li
+              a.column-item(href="#") Врачам
+            li
+              a.column-item(href="#") Специальностям
+            li
+              a.column-item(href="#") Стараховкам
+          ul.column
+            li
+              a.column-item.colum-item-title(href="#") СПЕЦИАЛЬНОСТИ
+            li
+              a.column-item(href="#") Онкология
+            li
+              a.column-item(href="#") Офтальмология   
+            li
+              a.column-item(href="#") Стоматология
+            li
+              a.column-item(href="#") Урология
+            li
+              a.column-item(href="#") Гиникология
+          ul.column
+            li
+              a.column-item.colum-item-title(href="#") АККАУНТ
+            li
+              a.column-item(href="#") Регистрация 
+            li
+              a.column-item(href="#") Для пациентов   
+            li
+              a.column-item(href="#") Помощь
+    div.copyright
+      div.copyright-wrapper
+        p.copyright-description Our Privacy Policy and Terms of Use &copy;2017 MedDia, Inc.

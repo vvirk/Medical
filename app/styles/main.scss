@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,700&subset=cyrillic,cyrillic-ext,latin-ext');
 @import 'normalize';
 @import 'reset';
 @import 'variables';
@@ -56,6 +56,11 @@ header {
      display: flex;
  }
 
+ .menu li:hover {
+    background: rgba(0, 0, 0, 0.1);
+    transition: .6s;
+ }
+
  .menu-item {
      display: flex;
      align-items: center;
@@ -65,18 +70,11 @@ header {
      line-height: 14px;
      text-transform: uppercase;
      padding: 17px 16px 16px 23px;
-     &:hover {
-         background: rgba(0, 0, 0, 0.1);
-         transition: .6s;
-     }
  }
 
 .menu-item_last {
     position: relative;
-    padding: 17px 0 0 54px;
-    &:hover {
-        background: inherit;
-    }
+    padding: 17px 20px 0 54px;
 }
 
  .like {
@@ -146,9 +144,9 @@ header {
         display: block;
         position: absolute;
         top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+        right: 0;
+        width: 50%;
+        height: 20%;
         cursor: pointer;
         z-index: 2;
         line-height: 40px;
@@ -251,11 +249,11 @@ header {
         align-items: center;
     }
 
-    .title {
+    .banner-title {
         color: #fff;
         font-size: 48px;
         line-height: 56px;
-        font-weight: 700;
+        font-weight: bold;
         text-align: center;
     }
     
@@ -266,15 +264,16 @@ header {
     .find-input {
         width: 400px;
         background: #fff;
-        color: #828282;
+        color: $gray;
         padding: 16px;
         &::placeholder {
-            color: #828282;
+            color: $gray;
         }
     }
     
     .find-country-input {
         width: 312px;
+        margin-left: 1px;
     }
 
     .button {
@@ -300,7 +299,7 @@ header {
 }
 
 @media (max-width: 480px) {
-    .title {
+    .banner-title {
         font-size: 24px;
         line-height: 28px;
     }
@@ -331,9 +330,10 @@ header {
     padding-top: 45px;
 }
 
-.servises-title {
+.title {
     font-size: 36px;
     line-height: 46px;
+    font-weight: bold;
     color: #4F4F4F;
     text-align: center;
 }
@@ -383,6 +383,7 @@ header {
 .service-title {
     font-size: 24px;
     line-height: 28px;
+    padding-bottom: 25px;
 }
 
 .servises-title-320px {
@@ -404,10 +405,9 @@ header {
 }
 
 @media (max-width: 700px) {
-    .servises-title {
+    .title {
         font-size: 24px;
         line-height: 31px;
-        font-weight: 700;
     }
 }
 
@@ -447,6 +447,9 @@ header {
 }
 
 .specialty {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     max-width: 200px;
     background: #fff;
     color: $black;
@@ -497,20 +500,20 @@ header {
     .servises-title-320px {
         display: flex;
         color: #fff;
-        background: #F4C900;
+        background: $yellow;
         padding-top: 27px;
         padding-bottom: 11px;
     }
 
     .other-services {
-        background: #F4C900;
+        background: $yellow;
         padding-top: 10px;
         padding-bottom: 4px;
     }
 
     .specialty {
         width: 147px;
-        background-color: #F4C900;
+        background-color: $yellow;
         padding-bottom: 0;
         margin-bottom: 0;
     }
@@ -543,13 +546,11 @@ header {
     display: flex;
     flex-direction: column;
     padding: 59px 0 56px 0;
+    overflow: hidden;
 }
 
 .patient-info-title {
-    font-size: 36px;
-    line-height: 46px;
     color: #fff;
-    text-align: center;
 }
 
 .info-wrapper {
@@ -560,6 +561,27 @@ header {
     flex-wrap: wrap;
     padding: 47px 0 69px 0;
     margin: 0 auto;
+    position: relative;
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 86px;
+        left: -123px;
+        width: 104px;
+        height: 2px;
+        background: #379D89;
+    }
+    &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 86px;
+        right: -123px;
+        width: 104px;
+        height: 2px;
+        background: #379D89;
+    }
 }
 
 .info {
@@ -568,6 +590,7 @@ header {
 }
 
 .info-logo {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -577,6 +600,31 @@ header {
     background-color: #379D89;
     margin: 0 auto;
     margin-bottom: 32px;
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 39px;
+        left: 78px;
+        width: 95px;
+        height: 2px;
+        background: inherit;
+    }
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 39px;
+        right: 78px;
+        width: 95px;
+        height: 2px;
+        background: inherit;
+    }
+}
+
+.info-pic {
+    position: absolute;
+    right: 20px;
 }
 
 .info-title {
@@ -605,6 +653,11 @@ header {
         padding: 5px;
     }
 }
+@media (max-width: 951px) {
+    .info-logo::after,.info-logo::before {
+        display: none;
+    }
+}
 
 @media (max-width: 600px) {
     .patient-info-wrapper {
@@ -617,10 +670,6 @@ header {
 
     .info {
         padding-bottom: 10px;
-    }
-
-    .patient-info-title {
-        font-size: 24px;
     }
 }
 
@@ -651,10 +700,7 @@ header {
 }
 
 .benefits-title {
-    font-size: 36px;
-    line-height: 46px;
     color: $black;
-    text-align: center;
     max-width: 770px;
 }
 
@@ -664,7 +710,7 @@ header {
     width: 24px;
     height: 24px;
     font-size: 24px;
-    line-height: 34px;
+    line-height: 33px;
     color: #fff;
     background-color: $red;
     border-radius: 50%;
@@ -771,7 +817,7 @@ header {
 .benefits-note {
     display: flex;
     position: absolute;
-    right: 89px;
+    right: 7%;
     max-width: 568px;
     text-align: left;
 }
@@ -870,7 +916,7 @@ header {
 .cooperation-pic {
     min-width: 257px;
     height: 257px;
-    background-color: #56CCF2;
+    background-color: $blue;
     border-radius: 50%;
     position: relative;
     overflow: hidden;
@@ -885,6 +931,36 @@ header {
 .cooperation-info {
     text-align: center;
     padding: 0;
+    position: relative;
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: -20px;
+        top: 175px;
+        width: 560px;
+        border-bottom: 2px $blue dashed;
+        z-index: -99;
+    }
+}
+
+.triangle {
+    position: absolute;
+    left: 82px;
+    top: 162px;
+    width: 0;
+	height: 0;
+	border-top: 14px solid transparent;
+	border-left: 14px solid $blue;
+	border-bottom: 14px solid transparent;
+}
+
+.triangle-second {
+    left: 248px;
+}
+
+.triangle-third {
+    left: 404px;
 }
 
 .coperation-title {
@@ -918,18 +994,20 @@ footer {
     flex-direction: column;
     width: 100%;
     max-width: 1050px;
-    padding: 54px 10px 0 10px;
+    padding: 54px 10px 10px 10px;
     margin: 0 auto;
 }
 
 .footer-contacts {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 53px;
+    flex-wrap: wrap;
+    padding-bottom: 41px;
 }
 
 .call-us,.write-us {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .phone-number {
@@ -937,10 +1015,12 @@ footer {
     font-size: 24px;
     font-weight: bold;
     line-height: 28px;
-    border: #56CCF2 1px solid;
+    border: $blue 1px solid;
     padding: 6px;
     border-radius: 30px;
     margin-right: 19px;
+    margin-left: 19px;
+    max-height: 40px;
 }
 
 .slogan {
@@ -951,6 +1031,7 @@ footer {
 
 .button-write-us {
     padding: 12px 28px;
+    max-height: 40px;
 }
 
 .social {
@@ -998,4 +1079,52 @@ footer {
     .phone-number {
         margin-bottom: 10px;
     }
+}
+
+.footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    padding-right: 95px;
+}
+
+.column li {
+    padding-bottom: 4px;
+}
+
+.column-item {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.75;
+    &:hover {
+        text-decoration: underline;
+        transition: .6s;
+    }
+}
+
+.colum-item-title {
+    color: $gray;
+    text-transform: uppercase;
+}
+ 
+       // Copyright
+      
+.copyright {
+    width: 100%;
+    background-color: #272727;
+}
+
+.copyright-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 1050px;
+    padding: 22px 10px 23px 10px;
+    margin: 0 auto;
+}
+
+.copyright-description {
+    color: $gray;
 }
