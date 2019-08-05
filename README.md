@@ -1,1 +1,1 @@
-* [Medical](https://boxing199.github.io/Medical/build/index.html)
+* [Medical](https://vvirk.github.io/Medical/build/index.html)
